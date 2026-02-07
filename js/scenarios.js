@@ -131,7 +131,7 @@ const scenarios = [
             {
                 type: 'Tilläggsersättning',
                 organization: 'SAMI (via skivbolag)',
-                description: 'Sedan skyddstiden för inspelningar förlängdes från 50 till 70 år har musiker som överlåtit sina rättigheter mot en engångsersättning rätt till en tilläggsersättning från skivbolaget. Denna rätt går inte att förhandla bort, oavsett vad som avtalats.'
+                description: 'Sedan skyddstiden för inspelningar förlängdes från 50 till 70 år har musiker som överlåtit sina rättigheter mot en engångsersättning rätt till en tilläggsersättning på 20 % av skivbolagets intäkter efter det 50:e året (45 a § upphovsrättslagen). Denna rätt går inte att förhandla bort. Den gäller specifikt vid engångsersättning, vilket är vanligast just för sessionmusiker.'
             },
             {
                 type: 'Rätt till skälig ersättning',
