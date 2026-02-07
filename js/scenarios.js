@@ -77,7 +77,7 @@ const scenarios = [
             {
                 type: 'Närstående rättigheter (artist)',
                 organization: 'SAMI',
-                description: 'Oavsett om du skriver låtar eller inte — som medverkande musiker på inspelningen har du rätt till ersättning via SAMI när musiken spelas på radio, TV eller offentligt. Varje bandmedlem bör gå med i SAMI individuellt och fylla i SAMI-listan.'
+                description: 'Oavsett om du skriver låtar eller inte — som medverkande musiker på inspelningen har du rätt till ersättning via SAMI när musiken spelas på radio, TV eller offentligt. Varje bandmedlem behöver vara med i SAMI individuellt, men en person kan registrera inspelningen på SAMI-listan och lägga till övriga medverkande.'
             },
             {
                 type: 'Närstående rättigheter (master)',
