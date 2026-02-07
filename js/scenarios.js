@@ -12,13 +12,13 @@ const scenarios = [
             },
             {
                 type: 'Framföranderoyalties',
-                organization: 'STIM',
-                description: 'Som låtskrivare har du rätt till ersättning när dina låtar framförs offentligt — det inkluderar streaming, radio, TV och liveframträdanden. Du måste vara ansluten till STIM och ha registrerat dina verk för att få dessa pengar. STIM betalar ut åtta gånger per år.'
+                organization: 'Stim',
+                description: 'Som låtskrivare har du rätt till ersättning när dina låtar framförs offentligt — det inkluderar streaming, radio, TV och liveframträdanden. Du måste vara ansluten till Stim och ha registrerat dina verk för att få dessa pengar. Stim betalar ut åtta gånger per år.'
             },
             {
                 type: 'Mekaniska royalties',
-                organization: 'STIM/NCB',
-                description: 'Varje gång din komposition reproduceras (streaming, nedladdning, CD) genereras mekaniska royalties. I Norden hanteras dessa av NCB och betalas ut till dig via STIM. Du behöver inte registrera dig separat hos NCB — det sköts automatiskt via din STIM-anslutning.'
+                organization: 'Stim/NCB',
+                description: 'Varje gång din komposition reproduceras (streaming, nedladdning, CD) genereras mekaniska royalties. I Norden hanteras dessa av NCB och betalas ut till dig via Stim. Du behöver inte registrera dig separat hos NCB — det sköts automatiskt via din Stim-anslutning.'
             },
             {
                 type: 'Närstående rättigheter (artist)',
@@ -39,13 +39,13 @@ const scenarios = [
         royalties: [
             {
                 type: 'Upphovsrättsroyalties (komposition)',
-                organization: 'STIM',
-                description: 'Om du är med och skapar melodin eller arrangemanget (inte bara mixar/mastrar) räknas du ofta som medupphovsperson och har rätt till en andel av framförande- och mekaniska royalties via STIM. Se till att du och artisten avtalar om splits innan release och att kompositionen registreras hos STIM med din andel.'
+                organization: 'Stim',
+                description: 'Om du är med och skapar melodin eller arrangemanget (inte bara mixar/mastrar) räknas du ofta som medupphovsperson och har rätt till en andel av framförande- och mekaniska royalties via Stim. Se till att du och artisten avtalar om splits innan release och att kompositionen registreras hos Stim med din andel.'
             },
             {
                 type: 'Mekaniska royalties',
-                organization: 'STIM/NCB',
-                description: 'Som medupphovsperson till kompositionen får du din andel av mekaniska royalties varje gång låten streamas, laddas ner eller reproduceras. Dessa betalas ut via STIM.'
+                organization: 'Stim/NCB',
+                description: 'Som medupphovsperson till kompositionen får du din andel av mekaniska royalties varje gång låten streamas, laddas ner eller reproduceras. Dessa betalas ut via Stim.'
             },
             {
                 type: 'Inspelningsroyalties (master)',
@@ -71,8 +71,8 @@ const scenarios = [
             },
             {
                 type: 'Framförande- och mekaniska royalties',
-                organization: 'STIM',
-                description: 'Om du är med och skriver bandets låtar har du rätt till STIM-ersättning som upphovsperson. Dessa pengar går direkt från STIM till dig personligen — inte via skivbolaget. Se till att ni har tydliga splits registrerade hos STIM för varje låt.'
+                organization: 'Stim',
+                description: 'Om du är med och skriver bandets låtar har du rätt till Stim-ersättning som upphovsperson. Dessa pengar går direkt från Stim till dig personligen — inte via skivbolaget. Se till att ni har tydliga splits registrerade hos Stim för varje låt.'
             },
             {
                 type: 'Närstående rättigheter (artist)',
@@ -86,8 +86,8 @@ const scenarios = [
             },
             {
                 type: 'Liveframträdanden',
-                organization: 'STIM (via arrangör)',
-                description: 'Vid konserter betalar arrangören en STIM-avgift. Om du är låtskrivare i bandet får du ersättning för de framförda verken. Se till att setlistor rapporteras till STIM efter varje spelning.'
+                organization: 'Stim (via arrangör)',
+                description: 'Vid konserter betalar arrangören en Stim-avgift. Om du är låtskrivare i bandet får du ersättning för de framförda verken. Se till att setlistor rapporteras till Stim efter varje spelning.'
             }
         ]
     },
@@ -98,13 +98,13 @@ const scenarios = [
         royalties: [
             {
                 type: 'Framföranderoyalties',
-                organization: 'STIM',
-                description: 'Din viktigaste intäktskälla. Varje gång en låt du skrivit spelas på radio, TV, streamas eller framförs live får du ersättning via STIM. Se till att varje låt du medverkar på registreras hos STIM med korrekta splits mellan alla upphovspersoner.'
+                organization: 'Stim',
+                description: 'Din viktigaste intäktskälla. Varje gång en låt du skrivit spelas på radio, TV, streamas eller framförs live får du ersättning via Stim. Se till att varje låt du medverkar på registreras hos Stim med korrekta splits mellan alla upphovspersoner.'
             },
             {
                 type: 'Mekaniska royalties',
-                organization: 'STIM/NCB',
-                description: 'Varje gång en låt du skrivit reproduceras — streaming, nedladdning, fysisk skiva — genereras mekaniska royalties. Dessa hanteras av NCB i Norden och betalas ut via STIM.'
+                organization: 'Stim/NCB',
+                description: 'Varje gång en låt du skrivit reproduceras — streaming, nedladdning, fysisk skiva — genereras mekaniska royalties. Dessa hanteras av NCB i Norden och betalas ut via Stim.'
             },
             {
                 type: 'Synkroniseringsersättning',
@@ -140,7 +140,7 @@ const scenarios = [
             },
             {
                 type: 'Upphovsrättsroyalties (om tillämpligt)',
-                organization: 'STIM',
+                organization: 'Stim',
                 description: 'Om du bidrar kreativt till kompositionen — exempelvis spelar in ett riff som blir en central del av låten — kan du ha rätt till upphovsrättslig ersättning. Detta beror helt på överenskommelsen med låtskrivarna och om ditt bidrag anses vara del av kompositionen.'
             }
         ]
@@ -162,8 +162,8 @@ const scenarios = [
             },
             {
                 type: 'Framföranderoyalties vid sändning',
-                organization: 'STIM',
-                description: 'Utöver engångslicensen genereras framföranderoyalties via STIM varje gång reklamen eller programmet sänds på TV eller radio. Vid upprepade sändningar kan dessa royalties bli betydande över tid.'
+                organization: 'Stim',
+                description: 'Utöver engångslicensen genereras framföranderoyalties via Stim varje gång reklamen eller programmet sänds på TV eller radio. Vid upprepade sändningar kan dessa royalties bli betydande över tid.'
             },
             {
                 type: 'Närstående rättigheter vid sändning',
@@ -179,13 +179,13 @@ const scenarios = [
         royalties: [
             {
                 type: 'Mekaniska royalties (till originallåtskrivaren)',
-                organization: 'NCB/STIM',
-                description: 'När din coverversion streamas eller säljs genereras mekaniska royalties som betalas till den ursprungliga låtskrivaren via STIM/NCB. Detta sker automatiskt — du behöver inte kontakta låtskrivaren. Distributörer som DistroKid och CD Baby kan hjälpa dig hantera detta.'
+                organization: 'NCB/Stim',
+                description: 'När din coverversion streamas eller säljs genereras mekaniska royalties som betalas till den ursprungliga låtskrivaren via Stim/NCB. Detta sker automatiskt — du behöver inte kontakta låtskrivaren. Distributörer som DistroKid och CD Baby kan hjälpa dig hantera detta.'
             },
             {
                 type: 'Framföranderoyalties (till originallåtskrivaren)',
-                organization: 'STIM',
-                description: 'När din cover spelas på radio, live eller streamas får den ursprungliga låtskrivaren framföranderoyalties via STIM. Du som coverartist får inga upphovsrättsliga royalties för kompositionen — du har ju inte skrivit låten.'
+                organization: 'Stim',
+                description: 'När din cover spelas på radio, live eller streamas får den ursprungliga låtskrivaren framföranderoyalties via Stim. Du som coverartist får inga upphovsrättsliga royalties för kompositionen — du har ju inte skrivit låten.'
             },
             {
                 type: 'Inspelningsroyalties (till dig)',
