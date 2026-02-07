@@ -104,7 +104,7 @@ const scenarios = [
             {
                 type: 'Mekaniska royalties',
                 organization: 'Stim/NCB',
-                description: 'Varje gång en låt du skrivit reproduceras — streaming, nedladdning, fysisk skiva — genereras mekaniska royalties. Dessa hanteras av NCB i Norden och betalas ut via Stim.'
+                description: 'Varje gång en låt du skrivit reproduceras — streaming, nedladdning, fysisk skiva — genereras mekaniska royalties. I Norden hanteras dessa av NCB och betalas ut via Stim.'
             },
             {
                 type: 'Synkroniseringsersättning',

@@ -156,6 +156,13 @@ main:has(.toc-layout) {
     margin-bottom: 1rem;
 }
 
+.scenario-missing {
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+}
+
 /* Scenarios page */
 .scenario-selector {
     display: flex;
