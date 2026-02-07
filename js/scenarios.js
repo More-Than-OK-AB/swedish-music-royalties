@@ -67,7 +67,7 @@ const scenarios = [
             {
                 type: 'Artistroyalties (inspelning)',
                 organization: 'Skivbolag',
-                description: 'Skivbolaget betalar ut en andel av intäkterna från streaming och försäljning till bandet enligt ert avtal. Vanliga andelar för artisten kan vara 15–25 % av nettointäkterna, men det varierar stort. Om ni fått förskott måste det först vara återbetalt ("recoupat") innan ni ser artistroyalties.'
+                description: 'Skivbolaget betalar ut en andel av intäkterna från streaming och försäljning till bandet enligt ert avtal. Vanliga andelar för artisten kan vara 15–25 % av nettointäkterna, men det varierar stort. Om ni fått förskott måste det först vara återbetalt ("recoupat") innan ni får artistroyalties.'
             },
             {
                 type: 'Framförande- och mekaniska royalties',

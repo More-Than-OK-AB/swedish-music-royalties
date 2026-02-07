@@ -74,6 +74,24 @@ main:has(.toc-layout) {
     margin-bottom: 0.5rem;
 }
 
+.hero-cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    background: #fff;
+    color: #1a1a2e;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.hero-cta:hover {
+    background: #e0e0e0;
+    transform: translateY(-2px);
+}
+
 /* TOC layout */
 .toc-layout {
     display: grid;
