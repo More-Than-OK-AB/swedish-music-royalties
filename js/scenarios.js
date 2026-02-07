@@ -28,7 +28,7 @@ const scenarios = [
             {
                 type: 'Närstående rättigheter (master)',
                 organization: 'IFPI',
-                description: 'Eftersom du äger mastern kan du även registrera dig hos IFPI för att få den del av närstående rättigheter som tillfaller fonogramframställaren (masterägaren). Hälften av det IFPI/SAMI samlar in vid offentligt framförande går till artisterna, hälften till masterägaren.'
+                description: 'Eftersom du äger mastern kan du registrera dig hos IFPI för att få den del av närstående rättigheter som tillfaller fonogramframställaren (masterägaren). Hälften av det IFPI/SAMI samlar in vid offentligt framförande går till artisterna, hälften till masterägaren. Observera att IFPI kräver ett registrerat bolag — privatpersoner kan inte bli medlemmar.'
             }
         ]
     },
