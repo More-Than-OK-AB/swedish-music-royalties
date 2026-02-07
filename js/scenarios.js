@@ -147,7 +147,7 @@ const scenarios = [
     },
     {
         id: 'sync-placement',
-        title: 'Din låt har blivit syncad (film/reklam/TV)',
+        title: 'Din låt har blivit synkad (film/reklam/TV)',
         description: 'En av dina låtar har plockats upp för användning i en reklamfilm, TV-serie, film eller dataspel. Synkronisering ("sync") är en av de mest lukrativa intäktskällorna för musikskapare, men det kan vara förvirrande att förstå vem som behöver ge tillstånd och vilka pengar som genereras.',
         royalties: [
             {
