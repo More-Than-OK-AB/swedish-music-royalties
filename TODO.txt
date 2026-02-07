@@ -2,7 +2,6 @@ Korta ner styckena litegrann
 Fixa länken i footern, den ska gå till min Spotify!
 Uppdatera namn till att referera till More Than OK AB (org nummer 559540-8195) istället för Musikrättigheter i Sverige/Musikrättighet Sverige i licensen.
 Gå igenom informationen och kolla om den är korrekt
-Ta bort jämförelse mellan distributörer, hör inte hemma här. Kan ha namn och exempel dock.
 Kolla möjligheten att korta ner styckena lite, mer kompakt
 Dubbelkolla referens till paragraf
 Dubbelkolla om det står rätt att ingen får spela in din låt utan medgivande, troligtvis får man göra Covers va? I så fall, länka kanske dit
