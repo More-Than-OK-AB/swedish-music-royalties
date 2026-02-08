@@ -136,7 +136,7 @@ const scenarios = [
             {
                 type: 'Rätt till skälig ersättning',
                 organization: 'Lagstadgad',
-                description: 'Enligt upphovsrättslagen har du rätt till skälig ersättning när du överlåter eller licensierar din medverkan. Om ersättningen i efterhand visar sig vara oproportionerligt låg i förhållande till vad din motpart tjänat, har du rätt till ytterligare ersättning. Denna rätt går inte att avtala bort.'
+                description: 'Enligt 29 § upphovsrättslagen (som gäller utövande konstnärer via 45 §) har du rätt till skälig ersättning när du överlåter eller licensierar din medverkan. Om ersättningen i efterhand visar sig vara oproportionerligt låg i förhållande till vad din motpart tjänat, har du rätt till ytterligare ersättning. Denna rätt går inte att avtala bort.'
             },
             {
                 type: 'Upphovsrättsroyalties (om tillämpligt)',
