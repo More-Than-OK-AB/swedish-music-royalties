@@ -2,10 +2,6 @@
 
 A website explaining music royalties in Sweden - what types exist, who collects them, and practical scenarios for different types of music creators.
 
-## About
-
-This website was vibe coded using [Kilo Code](https://kilocode.ai) and [Claude Code](https://claude.com/claude-code) together with Claude Opus 4.5.
-
 ## Local Development
 
 This is a static site with no build step. To test locally:
@@ -14,7 +10,7 @@ This is a static site with no build step. To test locally:
 npx serve .
 ```
 
-Then open http://localhost:8000 in your browser.
+Then open http://localhost:3000 in your browser.
 
 ## Deployment
 
