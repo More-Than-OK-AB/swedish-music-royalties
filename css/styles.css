@@ -355,6 +355,18 @@ strong {
 }
 
 @media (max-width: 768px) {
+    header {
+        padding: 0.75rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
     main:has(.toc-layout) {
         max-width: 900px;
     }
