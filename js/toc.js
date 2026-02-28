@@ -12,7 +12,14 @@
                     const active = document.querySelector(
                         `.toc-sidebar a[href="#${entry.target.id}"]`
                     );
-                    if (active) active.classList.add('active');
+                    if (active) {
+                        active.classList.add('active');
+                        const sidebar = document.querySelector('.toc-sidebar');
+                        if (sidebar && sidebar.scrollWidth > sidebar.clientWidth) {
+                            const scrollTarget = active.offsetLeft - sidebar.clientWidth / 2 + active.offsetWidth / 2;
+                            sidebar.scrollTo({ left: scrollTarget, behavior: 'smooth' });
+                        }
+                    }
                 }
             });
         },
