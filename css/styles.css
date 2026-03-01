@@ -134,6 +134,10 @@ main:has(.toc-layout) {
     border-left-color: #1a1a2e;
 }
 
+.toc-toggle {
+    display: none;
+}
+
 .content-section {
     background: #fff;
     padding: 2rem;
@@ -380,9 +384,9 @@ strong {
         position: sticky;
         top: 55px;
         max-height: none;
-        overflow-x: auto;
+        overflow: visible;
         margin-bottom: 1rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0;
         background: #f5f5f5;
         z-index: 50;
         border-bottom: 1px solid #ddd;
@@ -392,21 +396,52 @@ strong {
         scroll-margin-top: 105px;
     }
 
+    .toc-toggle {
+        display: flex;
+        width: 100%;
+        padding: 0.6rem 0.75rem;
+        background: none;
+        border: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #1a1a2e;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+        font-family: inherit;
+        text-align: left;
+    }
+
+    .toc-arrow {
+        display: inline-block;
+        transition: transform 0.2s;
+    }
+
+    .toc-sidebar.open .toc-arrow {
+        transform: rotate(180deg);
+    }
+
     .toc-sidebar ul {
-        flex-direction: row;
-        gap: 0;
+        display: none;
+        flex-direction: column;
+        gap: 0.25rem;
+        padding: 0.25rem 0 0.5rem;
+    }
+
+    .toc-sidebar.open ul {
+        display: flex;
     }
 
     .toc-sidebar a {
-        white-space: nowrap;
-        border-left: none;
-        border-bottom: 3px solid transparent;
-        padding: 0.4rem 0.6rem;
+        white-space: normal;
+        border-left: 3px solid transparent;
+        border-bottom: none;
+        padding: 0.4rem 0.75rem;
     }
 
     .toc-sidebar a.active {
-        border-left: none;
-        border-bottom-color: #1a1a2e;
+        border-left-color: #1a1a2e;
+        border-bottom: none;
     }
 
     .org-grid {
